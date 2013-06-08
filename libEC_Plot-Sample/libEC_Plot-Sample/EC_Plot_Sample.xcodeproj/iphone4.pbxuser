@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PlotSampleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 492}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PlotSampleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 654}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 628}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* PlotSample */ = {
+		activeExec = 0;
+		executables = (
+			ADBFED2B13B1A010005754AB /* PlotSample */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* PlotSampleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 1200}}";
+			sepNavSelRange = "{1498, 15}";
+			sepNavVisRange = "{786, 1064}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* PlotSampleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 11584}}";
+			sepNavSelRange = "{7443, 18}";
+			sepNavVisRange = "{7260, 731}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv7;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = ADBFED2B13B1A010005754AB /* PlotSample */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PlotSample */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* PlotSample */,
+		);
+		breakpoints = (
+			ADB0D92113B462210011B9C1 /* CustomArrow.m:218 */,
+			ADB0D92313B462250011B9C1 /* CustomArrow.m:177 */,
+			ADA99B7513B9871000D02786 /* UIMyMapView.m:19 */,
+			ADA99B7713B9871100D02786 /* UIMyMapView.m:15 */,
+			ADA99B8B13B987A500D02786 /* UIMyMapView.m:23 */,
+		);
+		codeSenseManager = ADBFED3913B1A055005754AB /* Code sense */;
+		executables = (
+			ADBFED2B13B1A010005754AB /* PlotSample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					769,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					881,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					841,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 343642863;
+			PBXWorkspaceStateSaveDate = 343642863;
+		};
+		perUserProjectItems = {
+			AD06F134147B989600C51A4B /* PlistBookmark */ = AD06F134147B989600C51A4B /* PlistBookmark */;
+			AD06F135147B989600C51A4B /* PBXTextBookmark */ = AD06F135147B989600C51A4B /* PBXTextBookmark */;
+			AD06F136147B989600C51A4B /* PBXTextBookmark */ = AD06F136147B989600C51A4B /* PBXTextBookmark */;
+			AD06F137147B989600C51A4B /* PBXTextBookmark */ = AD06F137147B989600C51A4B /* PBXTextBookmark */;
+			AD06F138147B989600C51A4B /* PBXTextBookmark */ = AD06F138147B989600C51A4B /* PBXTextBookmark */;
+			AD06F139147B989600C51A4B /* PBXTextBookmark */ = AD06F139147B989600C51A4B /* PBXTextBookmark */;
+			AD06F13A147B989600C51A4B /* PBXTextBookmark */ = AD06F13A147B989600C51A4B /* PBXTextBookmark */;
+			AD06F13B147B989600C51A4B /* PBXTextBookmark */ = AD06F13B147B989600C51A4B /* PBXTextBookmark */;
+			AD06F13C147B989600C51A4B /* PBXTextBookmark */ = AD06F13C147B989600C51A4B /* PBXTextBookmark */;
+			AD06F13D147B989600C51A4B /* PBXTextBookmark */ = AD06F13D147B989600C51A4B /* PBXTextBookmark */;
+			AD06F13E147B989600C51A4B /* PBXTextBookmark */ = AD06F13E147B989600C51A4B /* PBXTextBookmark */;
+			AD06F13F147B989600C51A4B /* PBXTextBookmark */ = AD06F13F147B989600C51A4B /* PBXTextBookmark */;
+			AD06F140147B989600C51A4B /* PBXTextBookmark */ = AD06F140147B989600C51A4B /* PBXTextBookmark */;
+			AD06F141147B989600C51A4B /* PBXTextBookmark */ = AD06F141147B989600C51A4B /* PBXTextBookmark */;
+			AD06F142147B989600C51A4B /* PBXTextBookmark */ = AD06F142147B989600C51A4B /* PBXTextBookmark */;
+			AD06F143147B989600C51A4B /* PBXTextBookmark */ = AD06F143147B989600C51A4B /* PBXTextBookmark */;
+			AD06F144147B989600C51A4B /* PBXTextBookmark */ = AD06F144147B989600C51A4B /* PBXTextBookmark */;
+			AD06F145147B989600C51A4B /* PBXTextBookmark */ = AD06F145147B989600C51A4B /* PBXTextBookmark */;
+			AD06F146147B989600C51A4B /* PBXTextBookmark */ = AD06F146147B989600C51A4B /* PBXTextBookmark */;
+			AD06F147147B989600C51A4B /* PBXTextBookmark */ = AD06F147147B989600C51A4B /* PBXTextBookmark */;
+			AD06F148147B989600C51A4B /* PBXTextBookmark */ = AD06F148147B989600C51A4B /* PBXTextBookmark */;
+			AD06F149147B989600C51A4B /* PBXTextBookmark */ = AD06F149147B989600C51A4B /* PBXTextBookmark */;
+			AD06F14A147B989600C51A4B /* PBXTextBookmark */ = AD06F14A147B989600C51A4B /* PBXTextBookmark */;
+			AD96757E13B31A9200F139E0 /* PBXTextBookmark */ = AD96757E13B31A9200F139E0 /* PBXTextBookmark */;
+			AD9675D413B31F6E00F139E0 /* PBXTextBookmark */ = AD9675D413B31F6E00F139E0 /* PBXTextBookmark */;
+			AD96766213B3245500F139E0 /* PBXTextBookmark */ = AD96766213B3245500F139E0 /* PBXTextBookmark */;
+			AD96769A13B3286400F139E0 /* PBXTextBookmark */ = AD96769A13B3286400F139E0 /* PBXTextBookmark */;
+			AD9676B313B329CA00F139E0 /* PBXTextBookmark */ = AD9676B313B329CA00F139E0 /* PBXTextBookmark */;
+			AD9676F813B32D8900F139E0 /* PBXTextBookmark */ = AD9676F813B32D8900F139E0 /* PBXTextBookmark */;
+			AD96773A13B3302D00F139E0 /* PBXTextBookmark */ = AD96773A13B3302D00F139E0 /* PBXTextBookmark */;
+			ADA8C8CC13C55E0600A3934E /* PBXTextBookmark */ = ADA8C8CC13C55E0600A3934E /* PBXTextBookmark */;
+			ADA8C8F313C560F300A3934E /* PBXBookmark */ = ADA8C8F313C560F300A3934E /* PBXBookmark */;
+			ADA8C90C13C57E3900A3934E /* PBXBookmark */ = ADA8C90C13C57E3900A3934E /* PBXBookmark */;
+			ADA8C94C13C580ED00A3934E /* PBXTextBookmark */ = ADA8C94C13C580ED00A3934E /* PBXTextBookmark */;
+			ADA99A0113B9633D00D02786 /* PBXTextBookmark */ = ADA99A0113B9633D00D02786 /* PBXTextBookmark */;
+			ADA99A0213B9633D00D02786 /* PBXTextBookmark */ = ADA99A0213B9633D00D02786 /* PBXTextBookmark */;
+			ADA99A0413B9633D00D02786 /* PBXTextBookmark */ = ADA99A0413B9633D00D02786 /* PBXTextBookmark */;
+			ADA99A5613B96FE500D02786 /* PBXTextBookmark */ = ADA99A5613B96FE500D02786 /* PBXTextBookmark */;
+			ADA99A6413B9730600D02786 /* PBXTextBookmark */ = ADA99A6413B9730600D02786 /* PBXTextBookmark */;
+			ADA99A6513B9730600D02786 /* PBXTextBookmark */ = ADA99A6513B9730600D02786 /* PBXTextBookmark */;
+			ADA99A9A13B97C3D00D02786 /* PBXTextBookmark */ = ADA99A9A13B97C3D00D02786 /* PBXTextBookmark */;
+			ADA99A9D13B97C3D00D02786 /* PBXTextBookmark */ = ADA99A9D13B97C3D00D02786 /* PBXTextBookmark */;
+			ADA99A9E13B97C3D00D02786 /* PBXTextBookmark */ = ADA99A9E13B97C3D00D02786 /* PBXTextBookmark */;
+			ADA99A9F13B97C3D00D02786 /* PBXTextBookmark */ = ADA99A9F13B97C3D00D02786 /* PBXTextBookmark */;
+			ADA99AA513B97C8200D02786 /* PBXTextBookmark */ = ADA99AA513B97C8200D02786 /* PBXTextBookmark */;
+			ADA99AC413B980EE00D02786 /* PBXTextBookmark */ = ADA99AC413B980EE00D02786 /* PBXTextBookmark */;
+			ADA99AFE13B985F800D02786 /* PBXTextBookmark */ = ADA99AFE13B985F800D02786 /* PBXTextBookmark */;
+			ADBBE35A13B8742E003AB4D1 /* PBXTextBookmark */ = ADBBE35A13B8742E003AB4D1 /* PBXTextBookmark */;
+			ADBBE35B13B8742E003AB4D1 /* PBXTextBookmark */ = ADBBE35B13B8742E003AB4D1 /* PBXTextBookmark */;
+			ADBBE36213B8742E003AB4D1 /* PBXTextBookmark */ = ADBBE36213B8742E003AB4D1 /* PBXTextBookmark */;
+			ADBBE39513B87E7B003AB4D1 /* PBXTextBookmark */ = ADBBE39513B87E7B003AB4D1 /* PBXTextBookmark */;
+			ADBFEFE313B1CDA8005754AB /* PBXTextBookmark */ = ADBFEFE313B1CDA8005754AB /* PBXTextBookmark */;
+			ADBFF03213B1EEB5005754AB /* PBXTextBookmark */ = ADBFF03213B1EEB5005754AB /* PBXTextBookmark */;
+			ADBFF03513B1EEB5005754AB /* PBXTextBookmark */ = ADBFF03513B1EEB5005754AB /* PBXTextBookmark */;
+			ADC47E9813C19C9A002E4B1C /* PBXTextBookmark */ = ADC47E9813C19C9A002E4B1C /* PBXTextBookmark */;
+			ADC47EBE13C19DF4002E4B1C /* PBXTextBookmark */ = ADC47EBE13C19DF4002E4B1C /* PBXTextBookmark */;
+			ADC47EBF13C19DF4002E4B1C /* PBXTextBookmark */ = ADC47EBF13C19DF4002E4B1C /* PBXTextBookmark */;
+		};
+		sourceControlManager = ADBFED3813B1A055005754AB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 320}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 359}";
+		};
+	};
+	AD06F134147B989600C51A4B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* PlotSample-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/iphone4/Documents/PlotSample/PlotSample-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	AD06F135147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFED3E13B1BA0D005754AB /* AreaPlotBase.h */;
+		name = "AreaPlotBase.h: 20";
+		rLen = 5;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	AD06F136147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFED4113B1BACB005754AB /* IPlot.h */;
+		name = "IPlot.h: 19";
+		rLen = 6;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 0;
+	};
+	AD06F137147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFEFBA13B1C3A0005754AB /* PlotHelper.h */;
+		name = "PlotHelper.h: 50";
+		rLen = 0;
+		rLoc = 1298;
+		rType = 0;
+		vrLen = 1579;
+		vrLoc = 376;
+	};
+	AD06F138147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE25513B80F0C003AB4D1 /* CustomTailedArrow.h */;
+		name = "CustomTailedArrow.h: 13";
+		rLen = 312;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
+	};
+	AD06F139147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PlotSampleAppDelegate.h */;
+		name = "PlotSampleAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	AD06F13A147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A5B13B9703300D02786 /* TriangleFlag.h */;
+		name = "TriangleFlag.h: 11";
+		rLen = 186;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	AD06F13B147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A7E13B9743800D02786 /* RectFlag.h */;
+		name = "RectFlag.h: 10";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	AD06F13C147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A3F13B9691C00D02786 /* Circle.h */;
+		name = "Circle.h: 11";
+		rLen = 178;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 0;
+	};
+	AD06F13D147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA999E813B95B9600D02786 /* AssemblyArea.h */;
+		name = "AssemblyArea.h: 12";
+		rLen = 12;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	AD06F13E147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE2E013B82D42003AB4D1 /* DoubleArrow.h */;
+		name = "DoubleArrow.h: 12";
+		rLen = 0;
+		rLoc = 228;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 0;
+	};
+	AD06F13F147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE2C813B82B7D003AB4D1 /* StraightArrow.h */;
+		name = "StraightArrow.h: 13";
+		rLen = 1;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	AD06F140147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE2C913B82B7D003AB4D1 /* StraightArrow.m */;
+		name = "StraightArrow.m: 64";
+		rLen = 11;
+		rLoc = 1125;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 188;
+	};
+	AD06F141147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99B9E13B9907100D02786 /* UITouchView.m */;
+		name = "UITouchView.m: 21";
+		rLen = 0;
+		rLoc = 500;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 0;
+	};
+	AD06F142147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A8D13B9757200D02786 /* CurveFlag.h */;
+		name = "CurveFlag.h: 21";
+		rLen = 0;
+		rLoc = 352;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	AD06F143147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFED3C13B1B838005754AB /* Plot.h */;
+		name = "Plot.h: 9";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 131;
+		vrLoc = 0;
+	};
+	AD06F144147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADB0D84413B42C510011B9C1 /* CustomArrow.h */;
+		name = "CustomArrow.h: 11";
+		rLen = 25;
+		rLoc = 172;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	AD06F145147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD96755C13B2E8EA00F139E0 /* SimpleArrow.h */;
+		name = "SimpleArrow.h: 14";
+		rLen = 178;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 0;
+	};
+	AD06F146147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD96755D13B2E8EA00F139E0 /* SimpleArrow.m */;
+		name = "SimpleArrow.m: 152";
+		rLen = 0;
+		rLoc = 3744;
+		rType = 0;
+		vrLen = 1304;
+		vrLoc = 2417;
+	};
+	AD06F147147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFEFBB13B1C3A0005754AB /* PlotHelper.m */;
+		name = "PlotHelper.m: 429";
+		rLen = 15;
+		rLoc = 13830;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 13552;
+	};
+	AD06F148147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PlotSampleViewController.h */;
+		name = "PlotSampleViewController.h: 64";
+		rLen = 15;
+		rLoc = 1498;
+		rType = 0;
+		vrLen = 1064;
+		vrLoc = 786;
+	};
+	AD06F149147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PlotSampleViewController.m */;
+		name = "PlotSampleViewController.m: 447";
+		rLen = 0;
+		rLoc = 11732;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 11489;
+	};
+	AD06F14A147B989600C51A4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PlotSampleViewController.m */;
+		name = "PlotSampleViewController.m: 282";
+		rLen = 18;
+		rLoc = 7443;
+		rType = 0;
+		vrLen = 731;
+		vrLoc = 7260;
+	};
+	AD96755C13B2E8EA00F139E0 /* SimpleArrow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{248, 178}";
+			sepNavVisRange = "{0, 481}";
+		};
+	};
+	AD96755D13B2E8EA00F139E0 /* SimpleArrow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 3024}}";
+			sepNavSelRange = "{3744, 0}";
+			sepNavVisRange = "{2417, 1304}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	AD96757E13B31A9200F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD96757F13B31A9200F139E0 /* NSEnumerator.h */;
+		name = "NSEnumerator.h: 40";
+		rLen = 0;
+		rLoc = 958;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 79;
+	};
+	AD96757F13B31A9200F139E0 /* NSEnumerator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSEnumerator.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSEnumerator.h;
+		sourceTree = "<absolute>";
+	};
+	AD9675CE13B31F6E00F139E0 /* AGSMapView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMapView.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMapView.h;
+		sourceTree = "<absolute>";
+	};
+	AD9675D413B31F6E00F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD9675D513B31F6E00F139E0 /* AGSGraphic.h */;
+		name = "AGSGraphic.h: 114";
+		rLen = 140;
+		rLoc = 4291;
+		rType = 0;
+		vrLen = 1797;
+		vrLoc = 2640;
+	};
+	AD9675D513B31F6E00F139E0 /* AGSGraphic.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSGraphic.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGraphic.h;
+		sourceTree = "<absolute>";
+	};
+	AD9675D713B31F6E00F139E0 /* AGSFillSymbol.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSFillSymbol.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSFillSymbol.h;
+		sourceTree = "<absolute>";
+	};
+	AD96766213B3245500F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD9675D713B31F6E00F139E0 /* AGSFillSymbol.h */;
+		name = "AGSFillSymbol.h: 33";
+		rLen = 29;
+		rLoc = 756;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 428;
+	};
+	AD96769A13B3286400F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD96769B13B3286400F139E0 /* AGSGraphicsLayer.h */;
+		name = "AGSGraphicsLayer.h: 60";
+		rLen = 49;
+		rLoc = 2118;
+		rType = 0;
+		vrLen = 1372;
+		vrLoc = 2809;
+	};
+	AD96769B13B3286400F139E0 /* AGSGraphicsLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSGraphicsLayer.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGraphicsLayer.h;
+		sourceTree = "<absolute>";
+	};
+	AD9676B313B329CA00F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFEFED13B1CDA8005754AB /* AGSGeometry.h */;
+		name = "AGSGeometry.h: 391";
+		rLen = 78;
+		rLoc = 13579;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 11657;
+	};
+	AD9676F813B32D8900F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD9676F913B32D8900F139E0 /* AGSMarkerSymbol.h */;
+		name = "AGSMarkerSymbol.h: 106";
+		rLen = 33;
+		rLoc = 3270;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 2909;
+	};
+	AD9676F913B32D8900F139E0 /* AGSMarkerSymbol.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMarkerSymbol.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMarkerSymbol.h;
+		sourceTree = "<absolute>";
+	};
+	AD96773A13B3302D00F139E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFEFEB13B1CDA8005754AB /* AGSPolygon.h */;
+		name = "AGSPolygon.h: 130";
+		rLen = 6;
+		rLoc = 3639;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 2996;
+	};
+	ADA8C8CC13C55E0600A3934E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99B9D13B9907100D02786 /* UITouchView.h */;
+		name = "UITouchView.h: 20";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 0;
+	};
+	ADA8C8D213C55E3E00A3934E /* assembly.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADA8C8F313C560F300A3934E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = ADA8C8D113C55E3E00A3934E /* arrow.png */;
+	};
+	ADA8C90C13C57E3900A3934E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = ADA8C8D213C55E3E00A3934E /* assembly.png */;
+	};
+	ADA8C94C13C580ED00A3934E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99AB213B97E9100D02786 /* UIView.h */;
+		name = "UIView.h: 176";
+		rLen = 19;
+		rLoc = 8271;
+		rType = 0;
+		vrLen = 1928;
+		vrLoc = 7450;
+	};
+	ADA999E813B95B9600D02786 /* AssemblyArea.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{255, 12}";
+			sepNavVisRange = "{0, 356}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADA999E913B95B9600D02786 /* AssemblyArea.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1408}}";
+			sepNavSelRange = "{2159, 64}";
+			sepNavVisRange = "{571, 1864}";
+		};
+	};
+	ADA99A0113B9633D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFED3F13B1BA0D005754AB /* AreaPlotBase.m */;
+		name = "AreaPlotBase.m: 30";
+		rLen = 0;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 200;
+	};
+	ADA99A0213B9633D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFED4213B1BAEB005754AB /* IPointCountFixedPlot.h */;
+		name = "IPointCountFixedPlot.h: 14";
+		rLen = 26;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	ADA99A0413B9633D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE2E113B82D42003AB4D1 /* DoubleArrow.m */;
+		name = "DoubleArrow.m: 11";
+		rLen = 23;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 0;
+	};
+	ADA99A3F13B9691C00D02786 /* Circle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{168, 178}";
+			sepNavVisRange = "{0, 346}";
+		};
+	};
+	ADA99A4013B9691C00D02786 /* Circle.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1296}}";
+			sepNavSelRange = "{984, 61}";
+			sepNavVisRange = "{493, 1014}";
+		};
+	};
+	ADA99A5613B96FE500D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PlotSampleAppDelegate.m */;
+		name = "PlotSampleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 0;
+	};
+	ADA99A5B13B9703300D02786 /* TriangleFlag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{173, 186}";
+			sepNavVisRange = "{0, 360}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADA99A5C13B9703300D02786 /* TriangleFlag.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1232}}";
+			sepNavSelRange = "{164, 1385}";
+			sepNavVisRange = "{483, 1066}";
+		};
+	};
+	ADA99A6413B9730600D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA999E913B95B9600D02786 /* AssemblyArea.m */;
+		name = "AssemblyArea.m: 76";
+		rLen = 64;
+		rLoc = 2159;
+		rType = 0;
+		vrLen = 1864;
+		vrLoc = 571;
+	};
+	ADA99A6513B9730600D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A4013B9691C00D02786 /* Circle.m */;
+		name = "Circle.m: 62";
+		rLen = 61;
+		rLoc = 984;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 493;
+	};
+	ADA99A7E13B9743800D02786 /* RectFlag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 351}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADA99A7F13B9743800D02786 /* RectFlag.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1264}}";
+			sepNavSelRange = "{156, 1499}";
+			sepNavVisRange = "{0, 557}";
+		};
+	};
+	ADA99A8D13B9757200D02786 /* CurveFlag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{352, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	ADA99A8E13B9757200D02786 /* CurveFlag.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1456}}";
+			sepNavSelRange = "{2872, 0}";
+			sepNavVisRange = "{1512, 1448}";
+		};
+	};
+	ADA99A9A13B97C3D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A5C13B9703300D02786 /* TriangleFlag.m */;
+		name = "TriangleFlag.m: 11";
+		rLen = 1385;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 483;
+	};
+	ADA99A9D13B97C3D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A7F13B9743800D02786 /* RectFlag.m */;
+		name = "RectFlag.m: 11";
+		rLen = 1499;
+		rLoc = 156;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 0;
+	};
+	ADA99A9E13B97C3D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFEFE613B1CDA8005754AB /* NSArray.h */;
+		name = "NSArray.h: 87";
+		rLen = 16;
+		rLoc = 4200;
+		rType = 0;
+		vrLen = 2502;
+		vrLoc = 2196;
+	};
+	ADA99A9F13B97C3D00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADB0D84513B42C510011B9C1 /* CustomArrow.m */;
+		name = "CustomArrow.m: 115";
+		rLen = 0;
+		rLoc = 3526;
+		rType = 0;
+		vrLen = 1679;
+		vrLoc = 2517;
+	};
+	ADA99AA513B97C8200D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99A8E13B9757200D02786 /* CurveFlag.m */;
+		name = "CurveFlag.m: 83";
+		rLen = 0;
+		rLoc = 2706;
+		rType = 0;
+		vrLen = 2270;
+		vrLoc = 686;
+	};
+	ADA99AB013B97E9100D02786 /* AGSCallout.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSCallout.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSCallout.h;
+		sourceTree = "<absolute>";
+	};
+	ADA99AB213B97E9100D02786 /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+	};
+	ADA99AB413B97E9100D02786 /* UIResponder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIResponder.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h;
+		sourceTree = "<absolute>";
+	};
+	ADA99AC413B980EE00D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99AC513B980EE00D02786 /* UIGestureRecognizer.h */;
+		name = "UIGestureRecognizer.h: 29";
+		rLen = 71;
+		rLoc = 2082;
+		rType = 0;
+		vrLen = 1742;
+		vrLoc = 2164;
+	};
+	ADA99AC513B980EE00D02786 /* UIGestureRecognizer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIGestureRecognizer.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGestureRecognizer.h;
+		sourceTree = "<absolute>";
+	};
+	ADA99AF913B985C500D02786 /* UIMyMapView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = UIMyMapView.m;
+		path = /Users/iphone4/Documents/PlotSample/Classes/UIMyMapView.m;
+		sourceTree = "<absolute>";
+	};
+	ADA99AFE13B985F800D02786 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99AFF13B985F800D02786 /* UIViewController.h */;
+		name = "UIViewController.h: 45";
+		rLen = 82;
+		rLoc = 1327;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 869;
+	};
+	ADA99AFF13B985F800D02786 /* UIViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h;
+		sourceTree = "<absolute>";
+	};
+	ADA99B7513B9871000D02786 /* UIMyMapView.m:19 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ADA99AF913B985C500D02786 /* UIMyMapView.m */;
+		functionName = "-touchesBegan:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 19;
+		modificationTime = 343644308.130174;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ADA99B7713B9871100D02786 /* UIMyMapView.m:15 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ADA99AF913B985C500D02786 /* UIMyMapView.m */;
+		functionName = "-touchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 15;
+		modificationTime = 343644308.130209;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ADA99B8B13B987A500D02786 /* UIMyMapView.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ADA99AF913B985C500D02786 /* UIMyMapView.m */;
+		functionName = "-motionBegan:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 23;
+		modificationTime = 343644308.130119;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ADA99B9D13B9907100D02786 /* UITouchView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 458}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 487}";
+		};
+	};
+	ADA99B9E13B9907100D02786 /* UITouchView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 736}}";
+			sepNavSelRange = "{500, 0}";
+			sepNavVisRange = "{0, 937}";
+		};
+	};
+	ADB0D84413B42C510011B9C1 /* CustomArrow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{172, 25}";
+			sepNavVisRange = "{0, 454}";
+		};
+	};
+	ADB0D84513B42C510011B9C1 /* CustomArrow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 4304}}";
+			sepNavSelRange = "{3526, 0}";
+			sepNavVisRange = "{2517, 1679}";
+		};
+	};
+	ADB0D92113B462210011B9C1 /* CustomArrow.m:218 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ADB0D84513B42C510011B9C1 /* CustomArrow.m */;
+		functionName = "-calculateFactors";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 218;
+		location = PlotSample;
+		modificationTime = 343644118.092789;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ADB0D92313B462250011B9C1 /* CustomArrow.m:177 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = ADB0D84513B42C510011B9C1 /* CustomArrow.m */;
+		functionName = "-createControlPoints";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 177;
+		location = PlotSample;
+		modificationTime = 343644118.092831;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	ADB0D98613B46D9A0011B9C1 /* math.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/architecture/i386/math.h;
+		sourceTree = "<absolute>";
+	};
+	ADBBE25513B80F0C003AB4D1 /* CustomTailedArrow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{234, 312}";
+			sepNavVisRange = "{0, 552}";
+		};
+	};
+	ADBBE25613B80F0C003AB4D1 /* CustomTailedArrow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 4864}}";
+			sepNavSelRange = "{4416, 704}";
+			sepNavVisRange = "{4411, 921}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADBBE29413B8265F003AB4D1 /* TailedArrow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
+			sepNavSelRange = "{220, 365}";
+			sepNavVisRange = "{0, 591}";
+		};
+	};
+	ADBBE29513B8265F003AB4D1 /* TailedArrow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 3216}}";
+			sepNavSelRange = "{161, 22}";
+			sepNavVisRange = "{3492, 1485}";
+		};
+	};
+	ADBBE2C813B82B7D003AB4D1 /* StraightArrow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{249, 1}";
+			sepNavVisRange = "{0, 439}";
+		};
+	};
+	ADBBE2C913B82B7D003AB4D1 /* StraightArrow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 1264}}";
+			sepNavSelRange = "{1125, 11}";
+			sepNavVisRange = "{188, 539}";
+		};
+	};
+	ADBBE2E013B82D42003AB4D1 /* DoubleArrow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 512}";
+		};
+	};
+	ADBBE2E113B82D42003AB4D1 /* DoubleArrow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 5600}}";
+			sepNavSelRange = "{162, 23}";
+			sepNavVisRange = "{0, 716}";
+		};
+	};
+	ADBBE35A13B8742E003AB4D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE29413B8265F003AB4D1 /* TailedArrow.h */;
+		name = "TailedArrow.h: 12";
+		rLen = 365;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 591;
+		vrLoc = 0;
+	};
+	ADBBE35B13B8742E003AB4D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADB0D98613B46D9A0011B9C1 /* math.h */;
+		name = "math.h: 537";
+		rLen = 6;
+		rLoc = 21512;
+		rType = 0;
+		vrLen = 1665;
+		vrLoc = 20612;
+	};
+	ADBBE36213B8742E003AB4D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE25613B80F0C003AB4D1 /* CustomTailedArrow.m */;
+		name = "CustomTailedArrow.m: 144";
+		rLen = 704;
+		rLoc = 4416;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 4411;
+	};
+	ADBBE39513B87E7B003AB4D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBBE29513B8265F003AB4D1 /* TailedArrow.m */;
+		name = "TailedArrow.m: 10";
+		rLen = 22;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 1485;
+		vrLoc = 3492;
+	};
+	ADBFED2B13B1A010005754AB /* PlotSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PlotSample;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	ADBFED3813B1A055005754AB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	ADBFED3913B1A055005754AB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ADBFED3C13B1B838005754AB /* Plot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{130, 0}";
+			sepNavVisRange = "{0, 131}";
+		};
+	};
+	ADBFED3E13B1BA0D005754AB /* AreaPlotBase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{367, 5}";
+			sepNavVisRange = "{0, 497}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADBFED3F13B1BA0D005754AB /* AreaPlotBase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1376}}";
+			sepNavSelRange = "{1162, 0}";
+			sepNavVisRange = "{959, 334}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADBFED4113B1BACB005754AB /* IPlot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 577}}";
+			sepNavSelRange = "{303, 6}";
+			sepNavVisRange = "{0, 482}";
+		};
+	};
+	ADBFED4213B1BAEB005754AB /* IPointCountFixedPlot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 677}}";
+			sepNavSelRange = "{217, 26}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	ADBFEFBA13B1C3A0005754AB /* PlotHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1196, 1152}}";
+			sepNavSelRange = "{1298, 0}";
+			sepNavVisRange = "{376, 1579}";
+		};
+	};
+	ADBFEFBB13B1C3A0005754AB /* PlotHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1220, 8208}}";
+			sepNavSelRange = "{13830, 15}";
+			sepNavVisRange = "{13552, 1045}";
+			sepNavWindowFrame = "{{15, 91}, {1403, 782}}";
+		};
+	};
+	ADBFEFE313B1CDA8005754AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFEFE413B1CDA8005754AB /* AGSMultipoint.h */;
+		name = "AGSMultipoint.h: 44";
+		rLen = 14;
+		rLoc = 1305;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 819;
+	};
+	ADBFEFE413B1CDA8005754AB /* AGSMultipoint.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSMultipoint.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSMultipoint.h;
+		sourceTree = "<absolute>";
+	};
+	ADBFEFE613B1CDA8005754AB /* NSArray.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSArray.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	ADBFEFEB13B1CDA8005754AB /* AGSPolygon.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSPolygon.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPolygon.h;
+		sourceTree = "<absolute>";
+	};
+	ADBFEFED13B1CDA8005754AB /* AGSGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSGeometry.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	ADBFF03213B1EEB5005754AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFF03313B1EEB5005754AB /* AGSPoint.h */;
+		name = "AGSPoint.h: 81";
+		rLen = 10;
+		rLoc = 2362;
+		rType = 0;
+		vrLen = 980;
+		vrLoc = 1545;
+	};
+	ADBFF03313B1EEB5005754AB /* AGSPoint.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AGSPoint.h;
+		path = /Users/iphone4/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/private/AGSPoint.h;
+		sourceTree = "<absolute>";
+	};
+	ADBFF03513B1EEB5005754AB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADBFF03613B1EEB5005754AB /* NSRange.h */;
+		name = "NSRange.h: 17";
+		rLen = 11;
+		rLoc = 300;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 143;
+	};
+	ADBFF03613B1EEB5005754AB /* NSRange.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSRange.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h;
+		sourceTree = "<absolute>";
+	};
+	ADC47E9813C19C9A002E4B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99AB413B97E9100D02786 /* UIResponder.h */;
+		name = "UIResponder.h: 31";
+		rLen = 267;
+		rLoc = 943;
+		rType = 0;
+		vrLen = 2057;
+		vrLoc = 93;
+	};
+	ADC47EBE13C19DF4002E4B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ADA99AB013B97E9100D02786 /* AGSCallout.h */;
+		name = "AGSCallout.h: 75";
+		rLen = 10;
+		rLoc = 1958;
+		rType = 0;
+		vrLen = 1133;
+		vrLoc = 1376;
+	};
+	ADC47EBF13C19DF4002E4B1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AD9675CE13B31F6E00F139E0 /* AGSMapView.h */;
+		name = "AGSMapView.h: 308";
+		rLen = 10;
+		rLoc = 9965;
+		rType = 0;
+		vrLen = 1806;
+		vrLoc = 9315;
+	};
+}

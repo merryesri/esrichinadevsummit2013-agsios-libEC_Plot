@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061286CB1682A8E9000D442E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061286C61682A8E9000D442E /* CoreText.framework */; };
+		061286CD1682A8E9000D442E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061286C81682A8E9000D442E /* MediaPlayer.framework */; };
+		061286CE1682A8E9000D442E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061286C91682A8E9000D442E /* MobileCoreServices.framework */; };
+		061286CF1682A8E9000D442E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061286CA1682A8E9000D442E /* Security.framework */; };
+		0678E42E1755B0B6007FEEAB /* 屏幕快照 2013-05-29 11.41.48 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0678E42D1755B0B6007FEEAB /* 屏幕快照 2013-05-29 11.41.48 AM.png */; };
+		067E7152172CBB4600833DDB /* libEC_Plot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067E7151172CBB4600833DDB /* libEC_Plot.a */; };
+		06B4FC5B171F89DF00811988 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B4FC5A171F89DF00811988 /* libc++.dylib */; };
+		06B4FC5D171F89FD00811988 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B4FC5C171F89FD00811988 /* OpenGLES.framework */; };
+		06BF992F1724CC1900A47C56 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BF992E1724CC1900A47C56 /* MainWindow-iPad.xib */; };
+		06BF99311724CC3D00A47C56 /* PlotSampleViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BF99301724CC3D00A47C56 /* PlotSampleViewController-iPad.xib */; };
+		1D3623260D0F684500981E51 /* PlotSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PlotSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* PlotSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* PlotSampleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* PlotSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* PlotSampleViewController.m */; };
+		3B7F19E910D1BEB900AFD7FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F19E810D1BEB900AFD7FB /* CoreLocation.framework */; };
+		3B7F19EB10D1BEB900AFD7FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F19EA10D1BEB900AFD7FB /* QuartzCore.framework */; };
+		ADA8C8E113C55E3E00A3934E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D113C55E3E00A3934E /* arrow.png */; };
+		ADA8C8E213C55E3E00A3934E /* assembly.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D213C55E3E00A3934E /* assembly.png */; };
+		ADA8C8E313C55E3E00A3934E /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D313C55E3E00A3934E /* circle.png */; };
+		ADA8C8E413C55E3E00A3934E /* curve_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D413C55E3E00A3934E /* curve_flag.png */; };
+		ADA8C8E513C55E3E00A3934E /* custom_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D513C55E3E00A3934E /* custom_arrow.png */; };
+		ADA8C8E613C55E3E00A3934E /* custom_tail_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D613C55E3E00A3934E /* custom_tail_arrow.png */; };
+		ADA8C8E713C55E3E00A3934E /* double_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D713C55E3E00A3934E /* double_arrow.png */; };
+		ADA8C8E813C55E3E00A3934E /* foot_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D813C55E3E00A3934E /* foot_bg.png */; };
+		ADA8C8E913C55E3E00A3934E /* footer.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8D913C55E3E00A3934E /* footer.png */; };
+		ADA8C8EA13C55E3E00A3934E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8DA13C55E3E00A3934E /* logo.png */; };
+		ADA8C8EB13C55E3E00A3934E /* rect_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8DB13C55E3E00A3934E /* rect_flag.png */; };
+		ADA8C8EC13C55E3E00A3934E /* stright_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8DC13C55E3E00A3934E /* stright_arrow.png */; };
+		ADA8C8ED13C55E3E00A3934E /* tail_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8DD13C55E3E00A3934E /* tail_arrow.png */; };
+		ADA8C8EF13C55E3E00A3934E /* top_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8DF13C55E3E00A3934E /* top_bg.png */; };
+		ADA8C8F013C55E3E00A3934E /* triangle_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA8C8E013C55E3E00A3934E /* triangle_flag.png */; };
+		AF5B28CB124D17C1001577AD /* Bing Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B28C7124D17C1001577AD /* Bing Logo.png */; };
+		AF5B28CC124D17C1001577AD /* Bing Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B28C8124D17C1001577AD /* Bing Logo@2x.png */; };
+		AF5B28CD124D17C1001577AD /* esri.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B28C9124D17C1001577AD /* esri.png */; };
+		AF5B28CE124D17C1001577AD /* esri@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B28CA124D17C1001577AD /* esri@2x.png */; };
+		AF5B2972124D20B9001577AD /* GpsDisplay.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B296E124D20B9001577AD /* GpsDisplay.png */; };
+		AF5B2973124D20B9001577AD /* GpsDisplay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B296F124D20B9001577AD /* GpsDisplay@2x.png */; };
+		AF5B2974124D20B9001577AD /* GpsDisplayHeading.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B2970124D20B9001577AD /* GpsDisplayHeading.png */; };
+		AF5B2975124D20B9001577AD /* GpsDisplayHeading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B2971124D20B9001577AD /* GpsDisplayHeading@2x.png */; };
+		AF699BB711D1703700DC3951 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF699BB611D1703700DC3951 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		061286C61682A8E9000D442E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		061286C81682A8E9000D442E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		061286C91682A8E9000D442E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		061286CA1682A8E9000D442E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		061286D01682AE22000D442E /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		0678E42D1755B0B6007FEEAB /* 屏幕快照 2013-05-29 11.41.48 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2013-05-29 11.41.48 AM.png"; sourceTree = "<group>"; };
+		067E7141172CBB4600833DDB /* AreaPlotBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaPlotBase.h; sourceTree = "<group>"; };
+		067E7142172CBB4600833DDB /* AssemblyArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssemblyArea.h; sourceTree = "<group>"; };
+		067E7143172CBB4600833DDB /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		067E7144172CBB4600833DDB /* CurveFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveFlag.h; sourceTree = "<group>"; };
+		067E7145172CBB4600833DDB /* CustomArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomArrow.h; sourceTree = "<group>"; };
+		067E7146172CBB4600833DDB /* CustomTailedArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTailedArrow.h; sourceTree = "<group>"; };
+		067E7147172CBB4600833DDB /* DoubleArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleArrow.h; sourceTree = "<group>"; };
+		067E7148172CBB4600833DDB /* IPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPlot.h; sourceTree = "<group>"; };
+		067E7149172CBB4600833DDB /* IPointCountFixedPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPointCountFixedPlot.h; sourceTree = "<group>"; };
+		067E714A172CBB4600833DDB /* PlotHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotHelper.h; sourceTree = "<group>"; };
+		067E714B172CBB4600833DDB /* RectFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectFlag.h; sourceTree = "<group>"; };
+		067E714C172CBB4600833DDB /* SimpleArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleArrow.h; sourceTree = "<group>"; };
+		067E714D172CBB4600833DDB /* StraightArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StraightArrow.h; sourceTree = "<group>"; };
+		067E714E172CBB4600833DDB /* TailedArrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TailedArrow.h; sourceTree = "<group>"; };
+		067E714F172CBB4600833DDB /* TriangleFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleFlag.h; sourceTree = "<group>"; };
+		067E7150172CBB4600833DDB /* EC_Plot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EC_Plot.h; sourceTree = "<group>"; };
+		067E7151172CBB4600833DDB /* libEC_Plot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEC_Plot.a; sourceTree = "<group>"; };
+		067E7153172CBBD500833DDB /* UITouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchView.h; sourceTree = "<group>"; };
+		06B4FC5A171F89DF00811988 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		06B4FC5C171F89FD00811988 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		06BF992E1724CC1900A47C56 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		06BF99301724CC3D00A47C56 /* PlotSampleViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PlotSampleViewController-iPad.xib"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PlotSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PlotSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* EC_Plot_Sample_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EC_Plot_Sample_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* PlotSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlotSampleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* PlotSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotSampleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* PlotSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotSampleViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PlotSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotSample_Prefix.pch; sourceTree = "<group>"; };
+		3B7F19E810D1BEB900AFD7FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3B7F19EA10D1BEB900AFD7FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* EC_Plot_Sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EC_Plot_Sample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ADA8C8D113C55E3E00A3934E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		ADA8C8D213C55E3E00A3934E /* assembly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assembly.png; sourceTree = "<group>"; };
+		ADA8C8D313C55E3E00A3934E /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		ADA8C8D413C55E3E00A3934E /* curve_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curve_flag.png; sourceTree = "<group>"; };
+		ADA8C8D513C55E3E00A3934E /* custom_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_arrow.png; sourceTree = "<group>"; };
+		ADA8C8D613C55E3E00A3934E /* custom_tail_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_tail_arrow.png; sourceTree = "<group>"; };
+		ADA8C8D713C55E3E00A3934E /* double_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = double_arrow.png; sourceTree = "<group>"; };
+		ADA8C8D813C55E3E00A3934E /* foot_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot_bg.png; sourceTree = "<group>"; };
+		ADA8C8D913C55E3E00A3934E /* footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer.png; sourceTree = "<group>"; };
+		ADA8C8DA13C55E3E00A3934E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		ADA8C8DB13C55E3E00A3934E /* rect_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect_flag.png; sourceTree = "<group>"; };
+		ADA8C8DC13C55E3E00A3934E /* stright_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stright_arrow.png; sourceTree = "<group>"; };
+		ADA8C8DD13C55E3E00A3934E /* tail_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail_arrow.png; sourceTree = "<group>"; };
+		ADA8C8DF13C55E3E00A3934E /* top_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bg.png; sourceTree = "<group>"; };
+		ADA8C8E013C55E3E00A3934E /* triangle_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle_flag.png; sourceTree = "<group>"; };
+		AF5B28C7124D17C1001577AD /* Bing Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bing Logo.png"; sourceTree = "<group>"; };
+		AF5B28C8124D17C1001577AD /* Bing Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bing Logo@2x.png"; sourceTree = "<group>"; };
+		AF5B28C9124D17C1001577AD /* esri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esri.png; sourceTree = "<group>"; };
+		AF5B28CA124D17C1001577AD /* esri@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "esri@2x.png"; sourceTree = "<group>"; };
+		AF5B296E124D20B9001577AD /* GpsDisplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GpsDisplay.png; sourceTree = "<group>"; };
+		AF5B296F124D20B9001577AD /* GpsDisplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GpsDisplay@2x.png"; sourceTree = "<group>"; };
+		AF5B2970124D20B9001577AD /* GpsDisplayHeading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GpsDisplayHeading.png; sourceTree = "<group>"; };
+		AF5B2971124D20B9001577AD /* GpsDisplayHeading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GpsDisplayHeading@2x.png"; sourceTree = "<group>"; };
+		AF699BB611D1703700DC3951 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B4FC5D171F89FD00811988 /* OpenGLES.framework in Frameworks */,
+				06B4FC5B171F89DF00811988 /* libc++.dylib in Frameworks */,
+				061286CB1682A8E9000D442E /* CoreText.framework in Frameworks */,
+				061286CD1682A8E9000D442E /* MediaPlayer.framework in Frameworks */,
+				061286CE1682A8E9000D442E /* MobileCoreServices.framework in Frameworks */,
+				061286CF1682A8E9000D442E /* Security.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				3B7F19E910D1BEB900AFD7FB /* CoreLocation.framework in Frameworks */,
+				3B7F19EB10D1BEB900AFD7FB /* QuartzCore.framework in Frameworks */,
+				AF699BB711D1703700DC3951 /* libz.dylib in Frameworks */,
+				067E7152172CBB4600833DDB /* libEC_Plot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067E713E172CBB4600833DDB /* libEC_Plot */ = {
+			isa = PBXGroup;
+			children = (
+				067E713F172CBB4600833DDB /* headers */,
+				067E7151172CBB4600833DDB /* libEC_Plot.a */,
+			);
+			path = libEC_Plot;
+			sourceTree = "<group>";
+		};
+		067E713F172CBB4600833DDB /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				067E7140172CBB4600833DDB /* EC_Plot */,
+				067E7150172CBB4600833DDB /* EC_Plot.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		067E7140172CBB4600833DDB /* EC_Plot */ = {
+			isa = PBXGroup;
+			children = (
+				067E7153172CBBD500833DDB /* UITouchView.h */,
+				067E7141172CBB4600833DDB /* AreaPlotBase.h */,
+				067E7142172CBB4600833DDB /* AssemblyArea.h */,
+				067E7143172CBB4600833DDB /* Circle.h */,
+				067E7144172CBB4600833DDB /* CurveFlag.h */,
+				067E7145172CBB4600833DDB /* CustomArrow.h */,
+				067E7146172CBB4600833DDB /* CustomTailedArrow.h */,
+				067E7147172CBB4600833DDB /* DoubleArrow.h */,
+				067E7148172CBB4600833DDB /* IPlot.h */,
+				067E7149172CBB4600833DDB /* IPointCountFixedPlot.h */,
+				067E714A172CBB4600833DDB /* PlotHelper.h */,
+				067E714B172CBB4600833DDB /* RectFlag.h */,
+				067E714C172CBB4600833DDB /* SimpleArrow.h */,
+				067E714D172CBB4600833DDB /* StraightArrow.h */,
+				067E714E172CBB4600833DDB /* TailedArrow.h */,
+				067E714F172CBB4600833DDB /* TriangleFlag.h */,
+			);
+			path = EC_Plot;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* PlotSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PlotSampleAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* PlotSampleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* PlotSampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* EC_Plot_Sample_Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0678E42D1755B0B6007FEEAB /* 屏幕快照 2013-05-29 11.41.48 AM.png */,
+				067E713E172CBB4600833DDB /* libEC_Plot */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PlotSample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8C8D013C55E3E00A3934E /* images */,
+				AF5B296E124D20B9001577AD /* GpsDisplay.png */,
+				AF5B296F124D20B9001577AD /* GpsDisplay@2x.png */,
+				AF5B2970124D20B9001577AD /* GpsDisplayHeading.png */,
+				AF5B2971124D20B9001577AD /* GpsDisplayHeading@2x.png */,
+				AF5B28C7124D17C1001577AD /* Bing Logo.png */,
+				AF5B28C8124D17C1001577AD /* Bing Logo@2x.png */,
+				AF5B28C9124D17C1001577AD /* esri.png */,
+				AF5B28CA124D17C1001577AD /* esri@2x.png */,
+				2899E5210DE3E06400AC0155 /* PlotSampleViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* EC_Plot_Sample-Info.plist */,
+				06BF992E1724CC1900A47C56 /* MainWindow-iPad.xib */,
+				06BF99301724CC3D00A47C56 /* PlotSampleViewController-iPad.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B4FC5A171F89DF00811988 /* libc++.dylib */,
+				06B4FC5C171F89FD00811988 /* OpenGLES.framework */,
+				061286C61682A8E9000D442E /* CoreText.framework */,
+				061286C81682A8E9000D442E /* MediaPlayer.framework */,
+				061286C91682A8E9000D442E /* MobileCoreServices.framework */,
+				061286CA1682A8E9000D442E /* Security.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				3B7F19E810D1BEB900AFD7FB /* CoreLocation.framework */,
+				3B7F19EA10D1BEB900AFD7FB /* QuartzCore.framework */,
+				AF699BB611D1703700DC3951 /* libz.dylib */,
+				061286D01682AE22000D442E /* libstdc++.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA8C8D013C55E3E00A3934E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8C8D113C55E3E00A3934E /* arrow.png */,
+				ADA8C8D213C55E3E00A3934E /* assembly.png */,
+				ADA8C8D313C55E3E00A3934E /* circle.png */,
+				ADA8C8D413C55E3E00A3934E /* curve_flag.png */,
+				ADA8C8D513C55E3E00A3934E /* custom_arrow.png */,
+				ADA8C8D613C55E3E00A3934E /* custom_tail_arrow.png */,
+				ADA8C8D713C55E3E00A3934E /* double_arrow.png */,
+				ADA8C8D813C55E3E00A3934E /* foot_bg.png */,
+				ADA8C8D913C55E3E00A3934E /* footer.png */,
+				ADA8C8DA13C55E3E00A3934E /* logo.png */,
+				ADA8C8DB13C55E3E00A3934E /* rect_flag.png */,
+				ADA8C8DC13C55E3E00A3934E /* stright_arrow.png */,
+				ADA8C8DD13C55E3E00A3934E /* tail_arrow.png */,
+				ADA8C8DF13C55E3E00A3934E /* top_bg.png */,
+				ADA8C8E013C55E3E00A3934E /* triangle_flag.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* EC_Plot_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EC_Plot_Sample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EC_Plot_Sample;
+			productName = PlotSample;
+			productReference = 1D6058910D05DD3D006BFB54 /* EC_Plot_Sample_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EC_Plot_Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* EC_Plot_Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* PlotSampleViewController.xib in Resources */,
+				AF5B28CB124D17C1001577AD /* Bing Logo.png in Resources */,
+				AF5B28CC124D17C1001577AD /* Bing Logo@2x.png in Resources */,
+				AF5B28CD124D17C1001577AD /* esri.png in Resources */,
+				AF5B28CE124D17C1001577AD /* esri@2x.png in Resources */,
+				AF5B2972124D20B9001577AD /* GpsDisplay.png in Resources */,
+				AF5B2973124D20B9001577AD /* GpsDisplay@2x.png in Resources */,
+				AF5B2974124D20B9001577AD /* GpsDisplayHeading.png in Resources */,
+				AF5B2975124D20B9001577AD /* GpsDisplayHeading@2x.png in Resources */,
+				ADA8C8E113C55E3E00A3934E /* arrow.png in Resources */,
+				ADA8C8E213C55E3E00A3934E /* assembly.png in Resources */,
+				ADA8C8E313C55E3E00A3934E /* circle.png in Resources */,
+				ADA8C8E413C55E3E00A3934E /* curve_flag.png in Resources */,
+				ADA8C8E513C55E3E00A3934E /* custom_arrow.png in Resources */,
+				ADA8C8E613C55E3E00A3934E /* custom_tail_arrow.png in Resources */,
+				ADA8C8E713C55E3E00A3934E /* double_arrow.png in Resources */,
+				ADA8C8E813C55E3E00A3934E /* foot_bg.png in Resources */,
+				ADA8C8E913C55E3E00A3934E /* footer.png in Resources */,
+				ADA8C8EA13C55E3E00A3934E /* logo.png in Resources */,
+				ADA8C8EB13C55E3E00A3934E /* rect_flag.png in Resources */,
+				ADA8C8EC13C55E3E00A3934E /* stright_arrow.png in Resources */,
+				ADA8C8ED13C55E3E00A3934E /* tail_arrow.png in Resources */,
+				ADA8C8EF13C55E3E00A3934E /* top_bg.png in Resources */,
+				ADA8C8F013C55E3E00A3934E /* triangle_flag.png in Resources */,
+				06BF992F1724CC1900A47C56 /* MainWindow-iPad.xib in Resources */,
+				06BF99311724CC3D00A47C56 /* PlotSampleViewController-iPad.xib in Resources */,
+				0678E42E1755B0B6007FEEAB /* 屏幕快照 2013-05-29 11.41.48 AM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PlotSampleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* PlotSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$HOME/Library/SDKs/ArcGIS/iOS/**";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlotSample_Prefix.pch;
+				INFOPLIST_FILE = "EC_Plot_Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libEC_Plot\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = EC_Plot_Sample_Sample;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$HOME/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlotSample_Prefix.pch;
+				INFOPLIST_FILE = "EC_Plot_Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libEC_Plot\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = EC_Plot_Sample_Sample;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EC_Plot_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EC_Plot_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
